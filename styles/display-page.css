@@ -1,0 +1,53 @@
+.inline {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.outer {
+	width: 800px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.top {
+	height: 200px;
+	font-size: 0;
+	
+}
+
+.green {
+	width: 50%;
+	background-color: #008000;
+	height: inherit;
+}
+
+.blue {
+	width: 50%;
+	background-color: blue;
+	height: inherit;
+}
+
+.bottom {
+	height: 300px;
+	font-size: 0;
+}
+
+.grey {
+	width: 33.33%;
+	height: inherit;
+	background-color: grey;
+}
+
+.black {
+	width: 33.33%;
+	height: inherit;
+	background-color: black;
+}
+
+.orange {
+	width: 33.33%;
+	height: inherit;
+	background-color: orange;
+}
