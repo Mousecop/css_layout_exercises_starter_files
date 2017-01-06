@@ -1,1 +1,74 @@
 
+/*Code for Nav Bar*/
+
+.container {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+nav {
+	position: fixed;
+	height: 60px;
+	background-color: grey;
+	width: 100%;
+}
+.logo_kitten {
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+
+nav ul {
+	display: inline-block; /*Specifiy which element. li and ul need to be display: inline-block*/
+	margin-bottom: 10px;
+}
+
+nav li {
+	display: inline-block; /*Specifiy which element. li and ul need to be display: inline-block*/
+}
+
+li::after {
+	content: '|';
+	margin-left: 5px;
+}
+
+main {
+	padding-top: 90px;
+	min-width: 1000px;
+}
+
+.green-box {
+	margin-right: auto;
+	margin-left: auto;
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	position: relative;
+	margin-top: 150px;
+}
+
+.size {
+	height: 200px;
+	width: 200px;
+}
+
+.cat {
+	position: absolute;
+    bottom: 170px;
+    right: 500px;
+
+}
+.dog {
+	position: absolute;
+    left: 500px;
+    top: 150px;
+}
+
+body {
+	background: url('../images/outerspace_landscape.jpeg') no-repeat;
+	background-size: cover;
+}
+
